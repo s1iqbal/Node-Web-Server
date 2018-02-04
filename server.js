@@ -1,6 +1,7 @@
 const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
+const path = require("path");
 
 const port = process.env.PORT || 3000;
 const app = express();
@@ -28,7 +29,6 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/favicon.ico', express.static('images/favicon.ico'));
 //Maintainance
 
 // app.use((req,res,next) => {
@@ -46,10 +46,12 @@ hbs.registerHelper('screamIt', (text) => {
 
 
 app.get('/', (req, res) => {
-  res.render('home.hbs', {
+  res.render('index.hbs', {
     pageTitle: 'Home',
+    directory: `${__dirname}`
   });
 });
+
 
 app.get('/projects', (req, res) => {
   res.render('projects.hbs', {
