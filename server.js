@@ -28,6 +28,7 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use('/favicon.ico', express.static('images/favicon.ico'));
 //Maintainance
 
 // app.use((req,res,next) => {
@@ -47,6 +48,12 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render('home.hbs', {
     pageTitle: 'Home',
+  });
+});
+
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects',
   });
 });
 
