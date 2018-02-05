@@ -48,7 +48,6 @@ hbs.registerHelper('screamIt', (text) => {
 app.get('/', (req, res) => {
   res.render('index.hbs', {
     pageTitle: 'Home',
-    directory: `${__dirname}`
   });
 });
 
@@ -58,6 +57,8 @@ app.get('/projects', (req, res) => {
     pageTitle: 'Projects',
   });
 });
+
+
 
 
 app.listen(port, () => {
