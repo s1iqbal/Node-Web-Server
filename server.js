@@ -58,6 +58,12 @@ app.get('/projects', (req, res) => {
   });
 });
 
+app.get('/resume', (req, res) => {
+  res.render('resume.hbs', {
+    pageTitle: 'Home',
+  });
+});
+
 
 
 
