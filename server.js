@@ -36,6 +36,7 @@ app.use((req, res, next) => {
 // });
 
 //helper  function for handle bar template
+
 hbs.registerHelper('getCurrentYear', () => {
   return new Date().getFullYear();
 });
@@ -47,19 +48,22 @@ hbs.registerHelper('screamIt', (text) => {
 
 app.get('/', (req, res) => {
   res.render('index.hbs', {
-    pageTitle: 'Home',
+    navbarColor: 'transparent',
+    pageTitle: 'Home'
   });
 });
 
 
 app.get('/projects', (req, res) => {
   res.render('projects.hbs', {
+    navbarColor: 'transparent',
     pageTitle: 'Projects',
   });
 });
 
 app.get('/resume', (req, res) => {
   res.render('resume.hbs', {
+    navbarColor: 'black',
     pageTitle: 'Home',
   });
 });
