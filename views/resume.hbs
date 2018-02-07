@@ -5,18 +5,403 @@ html, body {margin: 0; height: 100%; overflow: hidden}
 </style>
 
 <head>
-  {{> meta}}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta charset="utf-8" />
   {{> header}}
   {{> imports}}
 </head>
 
-<body>
 {{> navbar}}
-<div>
-  <p>
+
     <br />
-    <br />
-  </p>
+    <br /><br />
+
+
+
+
+<body style="margin: 0">
+<div id="p1" class="wrap" style="overflow: hidden; position: relative; background-color: white; width: fill; height: auto">
+
+<!-- Begin shared CSS values -->
+<style class="shared-css" type="text/css" >
+.t {
+	-webkit-transform-origin: top left;
+	-moz-transform-origin: top left;
+	-o-transform-origin: top left;
+	-ms-transform-origin: top left;
+	-webkit-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	z-index: 2;
+	position: absolute;
+	white-space: pre;
+	overflow: visible;
+}
+</style>
+<!-- End shared CSS values -->
+
+
+<!-- Begin inline CSS -->
+<style type="text/css" >
+
+#t1_1{left:39px;top:2px;letter-spacing:-0.6px;word-spacing:-6.5px;}
+#t2_1{left:658px;top:36px;word-spacing:-3.1px;}
+#t3_1{left:39px;top:77px;}
+#t4_1{left:57px;top:77px;letter-spacing:-0.1px;}
+#t5_1{left:197px;top:77px;}
+#t6_1{left:215px;top:77px;}
+#t7_1{left:334px;top:77px;}
+#t8_1{left:351px;top:77px;}
+#t9_1{left:446px;top:77px;}
+#ta_1{left:464px;top:77px;}
+#tb_1{left:521px;top:77px;}
+#tc_1{left:539px;top:77px;}
+#td_1{left:39px;top:130px;letter-spacing:-0.7px;}
+#te_1{left:39px;top:174px;letter-spacing:0.1px;word-spacing:-0.1px;}
+#tf_1{left:39px;top:197px;letter-spacing:-0.7px;}
+#tg_1{left:39px;top:240px;letter-spacing:-0.2px;word-spacing:-0.7px;}
+#th_1{left:39px;top:251px;}
+#ti_1{left:39px;top:259px;}
+#tj_1{left:39px;top:271px;letter-spacing:-0.1px;word-spacing:-0.9px;}
+#tk_1{left:39px;top:281px;}
+#tl_1{left:39px;top:310px;letter-spacing:-0.3px;}
+#tm_1{left:39px;top:354px;letter-spacing:-0.3px;}
+#tn_1{left:84px;top:355px;}
+#to_1{left:88px;top:355px;word-spacing:-0.8px;}
+#tp_1{left:843px;top:355px;word-spacing:-0.9px;}
+#tq_1{left:39px;top:366px;}
+#tr_1{left:39px;top:375px;}
+#ts_1{left:39px;top:387px;letter-spacing:-0.1px;word-spacing:-0.8px;}
+#tt_1{left:96px;top:388px;}
+#tu_1{left:100px;top:388px;letter-spacing:-0.2px;word-spacing:-0.3px;}
+#tv_1{left:837px;top:388px;word-spacing:-0.9px;}
+#tw_1{left:39px;top:399px;}
+#tx_1{left:39px;top:408px;}
+#ty_1{left:39px;top:417px;}
+#tz_1{left:39px;top:426px;}
+#t10_1{left:39px;top:434px;}
+#t11_1{left:39px;top:455px;word-spacing:-1px;}
+#t12_1{left:65px;top:456px;}
+#t13_1{left:69px;top:456px;word-spacing:-0.8px;}
+#t14_1{left:837px;top:456px;word-spacing:-0.8px;}
+#t15_1{left:39px;top:467px;}
+#t16_1{left:39px;top:476px;}
+#t17_1{left:39px;top:485px;}
+#t18_1{left:39px;top:494px;}
+#t19_1{left:39px;top:503px;}
+#t1a_1{left:39px;top:511px;}
+#t1b_1{left:39px;top:524px;word-spacing:-1px;}
+#t1c_1{left:82px;top:526px;}
+#t1d_1{left:86px;top:526px;letter-spacing:-0.1px;word-spacing:-0.8px;}
+#t1e_1{left:841px;top:526px;letter-spacing:-0.1px;word-spacing:-0.7px;}
+#t1f_1{left:39px;top:537px;}
+#t1g_1{left:39px;top:545px;}
+#t1h_1{left:39px;top:554px;}
+#t1i_1{left:39px;top:627px;letter-spacing:-0.1px;word-spacing:-0.7px;}
+#t1j_1{left:129px;top:627px;}
+#t1k_1{left:39px;top:636px;word-spacing:-0.8px;}
+#t1l_1{left:77px;top:636px;}
+#t1m_1{left:39px;top:644px;letter-spacing:-0.2px;}
+#t1n_1{left:93px;top:644px;}
+#t1o_1{left:39px;top:583px;letter-spacing:-0.1px;}
+#t1p_1{left:39px;top:688px;letter-spacing:-0.3px;}
+#t1q_1{left:39px;top:730px;letter-spacing:-0.1px;word-spacing:-0.9px;}
+#t1r_1{left:831px;top:730px;letter-spacing:-0.2px;word-spacing:-0.8px;}
+#t1s_1{left:39px;top:742px;}
+#t1t_1{left:39px;top:755px;letter-spacing:-0.1px;word-spacing:-0.9px;}
+#t1u_1{left:831px;top:755px;letter-spacing:-0.2px;word-spacing:-0.8px;}
+#t1v_1{left:39px;top:768px;}
+#t1w_1{left:39px;top:779px;letter-spacing:-0.2px;word-spacing:-0.7px;}
+#t1x_1{left:831px;top:779px;letter-spacing:-0.2px;word-spacing:-0.8px;}
+#t1y_1{left:39px;top:792px;}
+#t1z_1{left:39px;top:804px;letter-spacing:-0.1px;word-spacing:-0.8px;}
+#t20_1{left:833px;top:804px;word-spacing:-1px;}
+#t21_1{left:39px;top:816px;}
+#t22_1{left:39px;top:829px;word-spacing:-1px;}
+#t23_1{left:39px;top:841px;}
+#t24_1{left:39px;top:850px;}
+#t25_1{left:39px;top:862px;word-spacing:-0.9px;}
+#t26_1{left:39px;top:874px;}
+#t27_1{left:39px;top:886px;word-spacing:-1px;}
+#t28_1{left:39px;top:899px;}
+#t29_1{left:39px;top:911px;word-spacing:-0.9px;}
+#t2a_1{left:39px;top:924px;}
+#t2b_1{left:39px;top:947px;letter-spacing:-0.5px;}
+#t2c_1{left:39px;top:990px;letter-spacing:-0.1px;word-spacing:-0.9px;}
+#t2d_1{left:101px;top:990px;}
+#t2e_1{left:105px;top:990px;word-spacing:-0.9px;}
+#t2f_1{left:826px;top:990px;word-spacing:-1px;}
+#t2g_1{left:39px;top:1002px;}
+#t2h_1{left:39px;top:1011px;}
+#t2i_1{left:39px;top:1020px;}
+#t2j_1{left:39px;top:1028px;}
+#t2k_1{left:39px;top:1047px;letter-spacing:-0.4px;word-spacing:-0.2px;}
+#t2l_1{left:95px;top:1047px;}
+#t2m_1{left:100px;top:1047px;letter-spacing:-0.1px;word-spacing:-0.9px;}
+#t2n_1{left:826px;top:1047px;word-spacing:-1px;}
+#t2o_1{left:40px;top:1059px;}
+#t2p_1{left:39px;top:1068px;}
+#t2q_1{left:39px;top:1098px;}
+#t2r_1{left:39px;top:1144px;}
+
+.s1_1{
+	FONT-SIZE: 237.6px;
+	FONT-FAMILY: Cambria_9;
+	color: rgb(0,0,0);
+}
+
+.s2_1{
+	FONT-SIZE: 105.6px;
+	FONT-FAMILY: Cambria_9;
+	color: rgb(0,0,0);
+}
+
+.s3_1{
+	FONT-SIZE: 61.6px;
+	FONT-FAMILY: FontAwesome_e;
+	color: rgb(0,0,0);
+}
+
+.s4_1{
+	FONT-SIZE: 61.6px;
+	FONT-FAMILY: Cambria_9;
+	color: rgb(0,0,0);
+}
+
+.s5_1{
+	FONT-SIZE: 92.4px;
+	FONT-FAMILY: Cambria_9;
+	color: rgb(0,0,0);
+}
+
+.s6_1{
+	FONT-SIZE: 26.8px;
+	FONT-FAMILY: Muli_o;
+	color: rgb(0,0,0);
+}
+
+.s7_1{
+	FONT-SIZE: 32.6px;
+	FONT-FAMILY: Cambria_t;
+	color: rgb(0,0,0);
+}
+
+.s8_1{
+	FONT-SIZE: 26.8px;
+	FONT-FAMILY: Arial_j;
+	color: rgb(0,0,0);
+}
+
+.s9_1{
+	FONT-SIZE: 26.8px;
+	FONT-FAMILY: Cambria_y;
+	color: rgb(0,0,0);
+}
+
+.s10_1{
+	FONT-SIZE: 26.8px;
+	FONT-FAMILY: Cambria_9;
+	color: rgb(0,0,0);
+}
+
+.s11_1{
+	FONT-SIZE: 26.8px;
+	FONT-FAMILY: Cambria_t;
+	color: rgb(0,0,0);
+}
+
+.s12_1{
+	FONT-SIZE: 32.6px;
+	FONT-FAMILY: Cambria_9;
+	color: rgb(0,0,0);
+}
+
+.s13_1{
+	FONT-SIZE: 32.6px;
+	FONT-FAMILY: Arial_j;
+	color: rgb(0,0,0);
+}
+
+.s14_1{
+	FONT-SIZE: 32.6px;
+	FONT-FAMILY: Cambria_y;
+	color: rgb(0,0,0);
+}
+
+#form1_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 38px;	top: 804px;	width: 23px;	height: 11px;	text-align: left;	background: transparent;	font: normal 7px Arial, Helvetica, sans-serif;}
+#form2_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 38px;	top: 779px;	width: 58px;	height: 11px;	text-align: left;	background: transparent;	font: normal 7px Arial, Helvetica, sans-serif;}
+#form3_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 38px;	top: 730px;	width: 63px;	height: 11px;	text-align: left;	background: transparent;	font: normal 7px Arial, Helvetica, sans-serif;}
+#form4_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 38px;	top: 756px;	width: 125px;	height: 9px;	text-align: left;	background: transparent;	font: normal 6px Arial, Helvetica, sans-serif;}
+#form5_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 446px;	top: 78px;	width: 66px;	height: 19px;	text-align: left;	background: transparent;	font: normal 13px Arial, Helvetica, sans-serif;}
+#form6_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 521px;	top: 78px;	width: 66px;	height: 19px;	text-align: left;	background: transparent;	font: normal 13px Arial, Helvetica, sans-serif;}
+#form7_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 196px;	top: 78px;	width: 129px;	height: 19px;	text-align: left;	background: transparent;	font: normal 13px Arial, Helvetica, sans-serif;}
+#form8_1{	z-index: 2;	cursor: pointer;	border-style: none;	padding: 0px;	position: absolute;	left: 38px;	top: 78px;	width: 148px;	height: 19px;	text-align: left;	background: transparent;	font: normal 13px Arial, Helvetica, sans-serif;}
+
+</style>
+<!-- End inline CSS -->
+
+<!-- Begin embedded font definitions -->
+<style id="fonts1" type="text/css" >
+
+@font-face {
+	font-family: Cambria_9;
+	src: url("fonts/Cambria_9.woff") format("woff");
+}
+
+@font-face {
+	font-family: Cambria_y;
+	src: url("fonts/Cambria_y.woff") format("woff");
+}
+
+@font-face {
+	font-family: Cambria_t;
+	src: url("fonts/Cambria_t.woff") format("woff");
+}
+
+@font-face {
+	font-family: Arial_j;
+	src: url("fonts/Arial_j.woff") format("woff");
+}
+
+@font-face {
+	font-family: Muli_o;
+	src: url("fonts/Muli_o.woff") format("woff");
+}
+
+@font-face {
+	font-family: FontAwesome_e;
+	src: url("fonts/FontAwesome_e.woff") format("woff");
+}
+
+</style>
+<!-- End embedded font definitions -->
+
+<!-- Begin page background -->
+<div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:1; background-color:rgba(0,0,0,0); -webkit-user-select: none;"></div>
+<div id="pg1" style="-webkit-user-select: none;"><object width="935" height="1210" data="1/1.svg" type="image/svg+xml" id="pdf1" style="width:935px; height:1210px; -moz-transform:scale(1); z-index: 0;"></object></div>
+<!-- End page background -->
+
+
+<!-- Begin text definitions (Positioned/styled in CSS) -->
+<div id="t1_1" class="t s1_1">SAAD IQBAL</div>
+<div id="t2_1" class="t s2_1">COMPUTER SCIENCE</div>
+<div id="t3_1" class="t s3_1"></div>
+<div id="t4_1" class="t s4_1">s1iqbal@ryerson.ca</div>
+<div id="t5_1" class="t s3_1"></div>
+<div id="t6_1" class="t s4_1">s1iqbal.github.io</div>
+<div id="t7_1" class="t s3_1"></div>
+<div id="t8_1" class="t s4_1">6475759225</div>
+<div id="t9_1" class="t s3_1"></div>
+<div id="ta_1" class="t s4_1">s1iqbal</div>
+<div id="tb_1" class="t s3_1"></div>
+<div id="tc_1" class="t s4_1">s1iqbal</div>
+<div id="td_1" class="t s5_1">SUMMARY</div>
+<div id="te_1" class="t s6_1">Third year computer science student. Aspiring developer as a full stack developer and a data scientist.</div>
+<div id="tf_1" class="t s5_1">EDUCATION</div>
+<div id="tg_1" class="t s7_1">Ryerson University</div>
+<div id="th_1" class="t s6_1">B.Sc Computer Science 2019</div>
+<div id="ti_1" class="t s6_1">Anticipated graduation at summer of 2019</div>
+<div id="tj_1" class="t s7_1">Stephen Leacock Collegiate Institute</div>
+<div id="tk_1" class="t s6_1">Ontario Secondary School Diploma (OSSD) 2015</div>
+<div id="tl_1" class="t s5_1">EMPLOYMENT</div>
+<div id="tm_1" class="t s7_1">GardaWorld</div>
+<div id="tn_1" class="t s8_1">, </div>
+<div id="to_1" class="t s9_1">Security Guard - Floater</div>
+<div id="tp_1" class="t s10_1">Sep 2017 - Current</div>
+<div id="tq_1" class="t s6_1">· Assigned various sites in Downtown Toronto</div>
+<div id="tr_1" class="t s6_1">· Managed and kept track of clients in hotel entering and exiting</div>
+<div id="ts_1" class="t s7_1">Butter±ly Beads</div>
+<div id="tt_1" class="t s8_1">, </div>
+<div id="tu_1" class="t s9_1">Web Developer</div>
+<div id="tv_1" class="t s10_1">Sep 2016 - Aug 2017</div>
+<div id="tw_1" class="t s6_1">· Used Liquid language to create and modify pages on retail website</div>
+<div id="tx_1" class="t s6_1">· Used Python to manage and access Shopify's database.</div>
+<div id="ty_1" class="t s6_1">· Fixed and Debugged layout issues on website.</div>
+<div id="tz_1" class="t s6_1">· Photographed products,edited, and logged the picture with the product.</div>
+<div id="t10_1" class="t s6_1">· Charge of updating all current inventory and logging it to the website.</div>
+<div id="t11_1" class="t s7_1">YM INC</div>
+<div id="t12_1" class="t s8_1">, </div>
+<div id="t13_1" class="t s9_1">Cashier/Sales Associate</div>
+<div id="t14_1" class="t s10_1">Aug 2015 - Sep 2016</div>
+<div id="t15_1" class="t s6_1">· Updated merchandise with signage, stock, and displays that encouraged sales.</div>
+<div id="t16_1" class="t s6_1">· Used cash register to handle customers buying merchandise, promoted ongoing sales, and kept variance stable.</div>
+<div id="t17_1" class="t s6_1">· In charge of fitting room, made sure external theft and internal theft was not possible, and kept track of time and items when the room was used.</div>
+<div id="t18_1" class="t s6_1">· Responsible for generating revenue and reaching budget for the daily and monthly expected value.</div>
+<div id="t19_1" class="t s6_1">· Documented cancelled and/or voided transactions.</div>
+<div id="t1a_1" class="t s6_1">· Deposited and closed registers with management, completed put backs, and cleaned store at end of day.</div>
+<div id="t1b_1" class="t s7_1">Bell Canada</div>
+<div id="t1c_1" class="t s8_1">, </div>
+<div id="t1d_1" class="t s9_1">Sales Representative</div>
+<div id="t1e_1" class="t s10_1">Feb 2013 - Jul 2013</div>
+<div id="t1f_1" class="t s6_1">· Responsible for generating revenue and developing new business opportunities</div>
+<div id="t1g_1" class="t s6_1">· In charge of managing sales and promoting Bell TV</div>
+<div id="t1h_1" class="t s6_1">· Communicated with people in an efficient manner</div>
+<div id="t1i_1" class="t s11_1">PROGRAMMING LANGUAGES:</div>
+<div id="t1j_1" class="t s6_1">JavaScript, HTML/CSS, Bash/Shell, React, NodeJs, ExpressJs, React Native, Java, C, mongoDb, mySQL</div>
+<div id="t1k_1" class="t s11_1">KEY SKILLS:</div>
+<div id="t1l_1" class="t s6_1">Communication, Database Design, Algorithms, Data Structure, Complexity, Math, Key Contributor, Leader, Eagerto Learn</div>
+<div id="t1m_1" class="t s11_1">CERTIFICATIONS:</div>
+<div id="t1n_1" class="t s6_1">The Complete React Native and Redux Course, Udemy, Ontario CPR Certification, Ontario Security Guard License, Individual Security Guard</div>
+<div id="t1o_1" class="t s5_1">SKILLS</div>
+<div id="t1p_1" class="t s5_1">PROJECTS</div>
+<div id="t1q_1" class="t s12_1">Full Stack Display</div>
+<div id="t1r_1" class="t s12_1">Feb 2018 - Current</div>
+<div id="t1s_1" class="t s6_1">Links for all projects. Created with Express Js, Node, Handlebarjs. Will be porting to React fully and migrating applications to run on site.</div>
+<div id="t1t_1" class="t s12_1">GitHub Developer Program Member</div>
+<div id="t1u_1" class="t s12_1">Feb 2018 - Current</div>
+<div id="t1v_1" class="t s6_1">Building seperate modules on an OAuth Protocol</div>
+<div id="t1w_1" class="t s12_1">Weather Express</div>
+<div id="t1x_1" class="t s12_1">Feb 2018 - Current</div>
+<div id="t1y_1" class="t s6_1">Displays the weather depending on the location/zip address/relative address. Purpose is to be built without oversight, with robust async code. Made with Nodejs and ES6 JavaScript.</div>
+<div id="t1z_1" class="t s12_1">Post It</div>
+<div id="t20_1" class="t s12_1">Jan 2018 - Current</div>
+<div id="t21_1" class="t s6_1">Post It application for Windows/MAC that syncs all notes across devices. Also leaves a Geo location pin on where note was created. Made with Nodejs and ES6 JavaScript.</div>
+<div id="t22_1" class="t s12_1">Album Purchaser</div>
+<div id="t23_1" class="t s6_1">React-Native application that is automatically ported to both IOS/Android. Deals with and makes use of reusable components, which are written from scratch. Also does a JSON HTTPS request and automatically ports to display with interaction. Project done for fun, and</div>
+<div id="t24_1" class="t s6_1">was to teach myself the basics of React.</div>
+<div id="t25_1" class="t s12_1">Home Library Manager</div>
+<div id="t26_1" class="t s6_1">Library Managing System with Authentication, GUI, Data Structure Linkage, and Clean Layout. Project for Software Engineering course.</div>
+<div id="t27_1" class="t s12_1">Image Processor</div>
+<div id="t28_1" class="t s6_1">Application written in Java that receives any image, and can apply photo filters using pixel processing. Filters include blur, sharpen, edge outline, and colour sort. Can also apply changes to the image such as rotation, crop, and split. Project for Computer Science course.</div>
+<div id="t29_1" class="t s12_1">Maze Path Finder</div>
+<div id="t2a_1" class="t s6_1">C program that solves any matrices using a file reader or stdin. Makes use of a Queue data structure to navigate the matrix to find a solution from point A to point B. Can deal with obstacles and can backtrack. Project for Data Structures and Algorithms Course.</div>
+<div id="t2b_1" class="t s5_1">VOLUNTEERING</div>
+<div id="t2c_1" class="t s7_1">Stephen Leacock</div>
+<div id="t2d_1" class="t s13_1">, </div>
+<div id="t2e_1" class="t s14_1">Librarian Assistant</div>
+<div id="t2f_1" class="t s12_1">Jan 2014 - Mar 2014</div>
+<div id="t2g_1" class="t s6_1">· Performed library duties including shelving, processing and categorizing library items</div>
+<div id="t2h_1" class="t s6_1">· Explained use of library facilities, resources, equipment, and services, and provided information about library policies.</div>
+<div id="t2i_1" class="t s6_1">· Guided students with using library books, electronic resources and computer databases</div>
+<div id="t2j_1" class="t s6_1">· Repaired old library books and magazines, labeled DVDs, videos and books</div>
+<div id="t2k_1" class="t s7_1">Tam O' Shanter</div>
+<div id="t2l_1" class="t s13_1">, </div>
+<div id="t2m_1" class="t s14_1">Afterschool Helper</div>
+<div id="t2n_1" class="t s12_1">Oct 2013 - Dec 2014</div>
+<div id="t2o_1" class="t s6_1">· Tutored kids with subjects such as Math, English, and Science</div>
+<div id="t2p_1" class="t s6_1">· Assisted Tam O’ Shanter students with homework and assignments</div>
+<div id="t2q_1" class="t s5_1">REFERENCES</div>
+<div id="t2r_1" class="t s6_1">Available upon request</div>
+
+<!-- End text definitions -->
+
+
+<!-- Begin Form Data -->
+<form>
+<input id="form1_1" type="button" tabindex="8" title="https://github.com/s1iqbal/PostIt-Application" onclick="window.open('https://github.com/s1iqbal/PostIt-Application','_blank');"/>
+<input id="form2_1" type="button" tabindex="7" title="https://github.com/s1iqbal/Node-Weather-Async" onclick="window.open('https://github.com/s1iqbal/Node-Weather-Async','_blank');"/>
+<input id="form3_1" type="button" tabindex="5" title="https://saadprojects.herokuapp.com/" onclick="window.open('https://saadprojects.herokuapp.com/','_blank');"/>
+<input id="form4_1" type="button" tabindex="6" title="https://github.com/s1iqbal" onclick="window.open('https://github.com/s1iqbal','_blank');"/>
+<input id="form5_1" type="button" tabindex="3" title="https://linkedin.com/s1iqbal" onclick="window.open('https://linkedin.com/s1iqbal','_blank');"/>
+<input id="form6_1" type="button" tabindex="4" title="https://www.github.com/s1iqbal" onclick="window.open('https://www.github.com/s1iqbal','_blank');"/>
+<input id="form7_1" type="button" tabindex="2" title="http://s1iqbal.github.io/" onclick="window.open('http://s1iqbal.github.io/','_blank');"/>
+<input id="form8_1" type="button" tabindex="1" title="mailto:s1iqbal@ryerson.ca" onclick="window.location.href='mailto:s1iqbal@ryerson.ca';"/>
+
+</form>
+<!-- End Form Data -->
+
 </div>
 <embed src="resume.pdf#zoom=200" width="100%" height="1000">
 
@@ -38,4 +423,5 @@ html, body {margin: 0; height: 100%; overflow: hidden}
  <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i></i></a></div>
     <input name="animation" type="hidden">
   </body>
+
 </html>
