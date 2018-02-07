@@ -64,16 +64,24 @@ app.get('/projects', (req, res) => {
 app.get('/resume', (req, res) => {
   res.render('resume.hbs', {
     navbarColor: 'black',
-    pageTitle: 'Home',
+    pageTitle: 'Resume',
   });
 });
 
 app.get('/contributions', (req, res) => {
   res.render('contributions.hbs', {
     navbarColor: 'transparent',
-    pageTitle: 'Home',
+    pageTitle: 'Contributions',
   });
 });
+
+app.get('/mockup', (req, res) => {
+  res.render('mockup.hbs', {
+    navbarColor: 'transparent',
+    pageTitle: 'Mockup',
+  });
+});
+
 
 
 
