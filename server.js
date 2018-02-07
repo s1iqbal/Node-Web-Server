@@ -68,6 +68,12 @@ app.get('/resume', (req, res) => {
   });
 });
 
+app.get('/contributions', (req, res) => {
+  res.render('contributions.hbs', {
+    navbarColor: 'transparent',
+    pageTitle: 'Home',
+  });
+});
 
 
 
