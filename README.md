@@ -1,21 +1,8 @@
-# Personal-Website Display
-``
-https://saadprojects.herokuapp.com/
-``
-
-# Bugs and Features TO DO
-
-+ convert pdf to static html page for /resume  (Thanks Alize)
-+ link development project to github repo (Thanks Alize)
-+ Slide mockup as finger slides  (Thanks Kavir)
-+ Render on React
-+ Scale mockup on mobile (Thanks Kavir)
-
 # Personal Site
 > Demos github contribution and projects while giving access to resume.
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
-
+https://saadprojects.herokuapp.com/
 
 ![](header.png)
 
@@ -53,6 +40,16 @@ Runtime: Node
     * Extention of root directory
 * 0.0.1
     * Work in progress
+
+
+# Bugs and Features TO DO
+
+* convert pdf to static html page for /resume  (Thanks Alize)
+* link development project to github repo (Thanks Alize)
+* Slide mockup as finger slides  (Thanks Kavir)
+* Render on React
+* Scale mockup on mobile (Thanks Kavir)
+
 
 ## Meta
 
